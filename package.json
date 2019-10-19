@@ -1,0 +1,32 @@
+{
+  "name": "roost",
+  "version": "1.0.0",
+  "description": "Roost is a child theme of Storefront WooCommerce theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tim-green/roost-storefront-theme.git"
+  },
+  "author": "Tim Green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tim-green/roost-storefront-theme/issues"
+  },
+  "homepage": "https://github.com/tim-green/roost-storefront-theme#readme",
+  "dependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-sass": "^3.1.0",
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {
+    "grunt": "~1.0.3",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}

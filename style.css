@@ -1,0 +1,12 @@
+/*
+Theme Name: Roost
+Theme URI: https://github.com/tim-green/roost-storefront-theme
+Author: Tim Green
+Author URI: https://www.timgreen.ws
+Template: storefront
+Description: This is a child theme for WooThemes StoreFront theme
+Version: 1.0.0
+Text Domain: storefront
+*/
+
+@import url('../roost/assets/build/app.min.css');
