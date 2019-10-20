@@ -8,13 +8,38 @@
 // Colours
 
 $color-primary: DarkSlateBlue;
-$black: #000;
-$white: #fff;
-$darkblack: #1d1d1d;
-$grey: #888;
-$medgrey: #d1d1d1;
 
+//Black
+$black: #000;
+$medium-black: #1d1d1d;
+$dark-gray:#101010;
+$medium-gray: #888;
+$light-gray: #d1d1d1;
+
+//White
+$white: #fff;
+
+//Red
+$soft-red: #dc535b;
+$medium-red: #c9373f;
+
+//Blue
+$aqua: #00add0;
+//Purple
+$magenta: #930f5b;
 
 // Base
 
 $base-line-height: 1.7;
+
+
+// Weights
+$hairline-weight: 100;
+$thin-weight:     200;
+$light-weight:    300;
+$normal-weight:   400;
+$medium-weight:   500;
+$semibold-weight: 600;
+$bold-weight:     700;
+$xbold-weight:    800;
+$black-weight:    900;
