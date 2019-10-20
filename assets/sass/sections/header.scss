@@ -14,6 +14,19 @@
   h1{
     margin: 0 0 30px;
   }
-}.site-branding .site-description{
+}
+
+.site-header{
+    background: $dark-gray;
+    border-bottom-color: $magenta;
+}
+
+
+//branding
+ .site-branding h1 a, .site-title a{
+    color: $white;  
+}
+
+.site-branding .site-description{
     color: $magenta;
 }
