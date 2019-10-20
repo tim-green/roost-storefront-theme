@@ -32,6 +32,18 @@ $magenta: #930f5b;
 
 $base-line-height: 1.7;
 
+//Google font
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+//Typekit font
+@import url(https://use.typekit.net/tum0hnl.css);
+
+//Fonts
+$font-stack: Helvetica, sans-serif;
+$roboto-slab: 'Roboto Slab', serif;   
+$open-sans: 'Open Sans', sans-serif;
+$proxima-nova: 'proxima-nova', sans-serif;
+$proxima-nova-extra-condensed: ' proxima-nova-extra-condensed', sans-serif;
 
 // Weights
 $hairline-weight: 100;
