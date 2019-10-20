@@ -21,6 +21,11 @@ h1, h2, h3, h4, h5, h6, .wc-block-grid__product-title{
     color: $light-gray;
 }
 
+h1{
+     @include fontSize(32px);
+     text-transform: $text-upper;
+}
+
 button, input[type="button"], input[type="reset"], input[type="submit"], .button, .widget a.button{
     @include main-gradient($soft-red, $medium-red, $magenta);
     color: $white;
