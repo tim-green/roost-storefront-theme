@@ -23,8 +23,13 @@
 
 
 //branding
+.site-branding .site-title a{
+    font-weight: $light-weight;
+}
+
  .site-branding h1 a, .site-title a{
-    color: $white;  
+    color: $white; 
+    
 }
 
 .site-branding .site-description{
