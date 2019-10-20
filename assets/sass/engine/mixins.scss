@@ -4,6 +4,8 @@
   +
 
 */
+
+//main gradient
 @mixin main-gradient($from, $to, $stop: 90%) {
   /* fallback/image non-cover color */
   background-color: $from;
