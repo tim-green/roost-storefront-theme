@@ -1,0 +1,26 @@
+/*
+
+  WooCommerce
+  +
+
+*/
+
+
+//WooCommerce cart 
+
+.site-header-cart .woocommerce-Price-amount, .site-header-cart .woocommerce-Price-currencySymbol,.site-header-cart .cart-contents .count{
+    color: $white;
+}
+
+.site-header-cart .cart-contents::after{
+    color: $magenta;
+}
+
+.site-header-cart .widget_shopping_cart{
+    background: $darker-gray;
+    color: $medium-gray;
+    border-top: 1px solid $magenta;
+}
+
+.woocommerce-pagination .page-numbers li .page-numbers.current{
+}
