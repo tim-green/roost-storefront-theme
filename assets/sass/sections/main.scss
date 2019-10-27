@@ -29,6 +29,7 @@ h1{
 button, input[type="button"], input[type="reset"], input[type="submit"], .button, .widget a.button{
     @include main-gradient($soft-red, $medium-red, $magenta);
     color: $white;
+    @include border-radius(3px);
 }
 
 button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover, .widget a.button:hover{
