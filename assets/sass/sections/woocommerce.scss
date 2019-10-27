@@ -52,6 +52,18 @@ input[type="text"]:focus, input[type="number"]:focus, input[type="email"]:focus,
 }
 
 
+// table:not(.has-background) th{
+//     background: $black;
+//     color: $white;
+// }
+
+// table tr:nth-child(1),table.shop_table_responsive tr td {
+//     background: $darker-gray;
+// }
+
+// table tr:nth-child(2) {
+//     background: $dark-gray;
+// }
 //WooCommerce search
 .site-search .widget_product_search form input[type="search"],form input[type="search"],form input[type="search"]:focus, .site-search .widget_product_search form input[type="text"]{
     background: $darker-gray;
