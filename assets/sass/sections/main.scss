@@ -8,6 +8,12 @@
 body{
     font-family: $proxima-nova
 }
+
+::selection {
+  background-color: $magenta;
+  color: $white;
+}
+
 .main{
   padding: 0 30px;
 }
