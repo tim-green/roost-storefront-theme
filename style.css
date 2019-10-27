@@ -6,7 +6,7 @@ Author URI: https://www.timgreen.ws
 Template: storefront
 Description: This is a child theme for WooThemes StoreFront theme
 Version: 1.0.0
-Text Domain: storefront
+Text Domain: roost
 */
 
 @import url('../roost/assets/build/app.min.css');
