@@ -4,6 +4,12 @@
   +
 
 */
+//General WooCommerce styles
+.added_to_cart,.storefront-sticky-add-to-cart__content-button{
+  @include border-radius(3px);
+  background: $darker-gray;
+  border:1px solid $medium-gray;
+}
 
 
 //WooCommerce cart 
