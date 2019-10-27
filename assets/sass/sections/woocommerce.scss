@@ -52,6 +52,10 @@ input[type="text"]:focus, input[type="number"]:focus, input[type="email"]:focus,
 }
 
 
+//WooCommerce table
+.shop_table a, .shop_table .amount{
+    color: $dark-gray;
+}
 // table:not(.has-background) th{
 //     background: $black;
 //     color: $white;
