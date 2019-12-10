@@ -29,6 +29,12 @@ function sf_child_theme_dequeue_style() {
 }
 
 
+function roost_js_scripts() {
+    wp_enqueue_script( 'matchHeight-js', 'https://cdn.jsdelivr.net/npm/jquery-match-height@0.7.2/dist/jquery.matchHeight.min.js', array( 'jquery' ),'',true );
+    wp_enqueue_script( 'app-js', get_bloginfo( 'stylesheet_directory' ) .'/assets/build/app.min.js', array( 'jquery' ),'',true );
+}
+add_action( 'wp_enqueue_scripts', 'roost_js_scripts' );
+
 /**
  * Note: DO NOT! alter or remove the code above this text and only add your custom PHP functions below this text.
  */
