@@ -49,7 +49,7 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 }
 
 //Blockquote
-.wp-block-quote{
+.wp-block-quote, .entry-content blockquote{
   border-left: none;
   padding: 1.5em 1.0em 0.1em !important;
   margin: 2em 0 !important;
