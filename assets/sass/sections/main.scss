@@ -61,3 +61,15 @@ blockquote{
   color: $white;
 
 }
+
+//File input
+input[type=file]{
+  padding: 1em;
+}
+
+//Fieldset
+fieldset button, fieldset input[type=button], fieldset input[type=reset], fieldset input[type=submit], fieldset input[type=file],fieldset .button{
+  background: $medium-black;
+  border: 1px solid $medium-black;
+  margin-top: .5em;
+}
