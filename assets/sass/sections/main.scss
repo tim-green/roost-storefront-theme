@@ -45,3 +45,16 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
     @include transition(background-color .30s ease-in-out);
 }
 
+//Blockquote
+.wp-block-quote{
+  border-left: none;
+  padding: 1.5em 1.0em 0.1em !important;
+  margin: 2em 0 !important;
+}
+
+blockquote{
+  @include main-gradient($soft-red, $medium-red, $magenta);
+  background: $magenta;
+  color: $white;
+
+}
