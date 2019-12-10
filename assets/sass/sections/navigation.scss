@@ -31,10 +31,10 @@ a:focus, button:focus, .button.alt:focus, input:focus, textarea:focus, input[typ
 }
 
 .main-navigation ul.menu ul li.focus{
-
+    
 }
 
-
+//Main Navigation Button - for mobile & tablets
 .secondary-navigation ul ul, .main-navigation ul.menu > li.menu-item-has-children::after, .secondary-navigation ul.menu ul, .storefront-handheld-footer-bar, .storefront-handheld-footer-bar ul li > a, .storefront-handheld-footer-bar ul li.search .site-search, button.menu-toggle, button.menu-toggle:hover{
     background: $magenta;
     color: $white;
