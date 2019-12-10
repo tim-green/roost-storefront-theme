@@ -37,6 +37,10 @@ input[type="text"]:focus, input[type="number"]:focus, input[type="email"]:focus,
     text-decoration: 4px underline $magenta;
 }
 
+.woocommerce-button:hover{
+    background-color:$magenta;
+    @include transition(background-color .5s ease-in);
+}
 
 //WooCommerce tabs
 .woocommerce-tabs ul.tabs li.active a, ul.products li.product .price, .onsale, .wc-block-grid__product-onsale, .widget_search form::before, .widget_product_search form::before{
