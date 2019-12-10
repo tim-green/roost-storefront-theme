@@ -6,7 +6,6 @@
 */
 
 
-
 .main-navigation ul li a{
     color: $medium-gray;
     @include fontSize(13px);
@@ -33,4 +32,19 @@ a:focus, button:focus, .button.alt:focus, input:focus, textarea:focus, input[typ
 
 .main-navigation ul.menu ul li.focus{
 
+}
+
+
+.secondary-navigation ul ul, .main-navigation ul.menu > li.menu-item-has-children::after, .secondary-navigation ul.menu ul, .storefront-handheld-footer-bar, .storefront-handheld-footer-bar ul li > a, .storefront-handheld-footer-bar ul li.search .site-search, button.menu-toggle, button.menu-toggle:hover{
+    background: $magenta;
+    color: $white;
+
+}
+
+button.menu-toggle::after, button.menu-toggle::before, button.menu-toggle span::before{
+    background-color: $white;
+}
+
+.main-navigation ul li a, .site-title a, ul.menu li a, .site-branding h1 a, .site-footer .storefront-handheld-footer-bar a:not(.button), button.menu-toggle, button.menu-toggle:hover, .handheld-navigation .dropdown-toggle{
+    color: $white;
 }
