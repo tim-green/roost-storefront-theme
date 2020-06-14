@@ -51,6 +51,9 @@ input[type="text"]:focus, input[type="number"]:focus, input[type="email"]:focus,
 .woocommerce-tabs ul.tabs li.active a, ul.products li.product .price, .onsale, .wc-block-grid__product-onsale, .widget_search form::before, .widget_product_search form::before{
 }
 
+.woocommerce-tabs ul.tabs li a{
+    border-top: 1px solid $magenta;
+}
 //WooCommerce product pagination
 .storefront-sticky-add-to-cart img{
     border:1px solid $medium-black;
