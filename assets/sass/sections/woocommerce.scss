@@ -32,10 +32,35 @@ input[type="text"]:focus, input[type="number"]:focus, input[type="email"]:focus,
     text-decoration-color: $magenta;
 }
 
+//WooCommerce Notificaitons
+.woocommerce-info, .woocommerce-noreviews, p.no-comments{
+    background-color: transparent;
+    border: 1px solid $magenta;
+}
+
+.woocommerce-noreviews,#payment .payment_methods > li .payment_box, #payment .place-order{
+    background-color: transparent !important;
+}
+
+.woocommerce-message, .woocommerce-info, .woocommerce-error, .woocommerce-noreviews, p.no-comments{
+    background:$light-gray;
+    color: $medium-black;
+}
+
+.woocommerce-message .button, .woocommerce-info .button, .woocommerce-error .button, .woocommerce-noreviews .button, p.no-comments .button{
+    color: $medium-black;
+}
+.woocommerce-message .button, .woocommerce-info .button, .woocommerce-error .button, .woocommerce-noreviews .button, p.no-comments .button{
+    border-left-color: $medium-black;
+}
+.woocommerce-info:hover, .woocommerce-noreviews:hover, p.no-comments:hover{
+    color: $magenta;
+}
 //WooCommerce product
 .product_title{
     text-decoration: 4px underline $magenta;
 }
+
 
 //WooCommerce Buttons
 .woocommerce-form-login__submit{
