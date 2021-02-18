@@ -1,0 +1,8 @@
+node_modules
+woocommerce/.DS_Store
+assets/.DS_Store
+assets/sass/.DS_Store
+.DS_Store
+woocommerce/.DS_Store
+assets/sass/.DS_Store
+.sass-cache
